@@ -1,0 +1,4 @@
+[ 2023-05-01 17:12:56,953 ] 22 root - INFO - Data Ingestion method started
+[ 2023-05-01 17:12:57,126 ] 26 root - INFO - Dataset read!!
+[ 2023-05-01 17:12:58,273 ] 32 root - INFO - train test split
+[ 2023-05-01 17:12:58,304 ] 44 root - INFO - Exception occured at Data Ingestion stage

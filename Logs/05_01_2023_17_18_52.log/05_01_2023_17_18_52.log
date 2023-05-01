@@ -1,0 +1,4 @@
+[ 2023-05-01 17:18:53,705 ] 22 root - INFO - Data Ingestion method started
+[ 2023-05-01 17:18:53,874 ] 26 root - INFO - Dataset read!!
+[ 2023-05-01 17:18:55,034 ] 32 root - INFO - train test split
+[ 2023-05-01 17:18:56,225 ] 39 root - INFO - Data Ingestion completed

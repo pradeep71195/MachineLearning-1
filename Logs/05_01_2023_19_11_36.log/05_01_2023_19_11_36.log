@@ -1,0 +1,26 @@
+[ 2023-05-01 19:11:37,059 ] 23 root - INFO - Data Ingestion method started
+[ 2023-05-01 19:11:37,228 ] 27 root - INFO - Dataset read!!
+[ 2023-05-01 19:11:38,380 ] 33 root - INFO - train test split
+[ 2023-05-01 19:11:39,557 ] 40 root - INFO - Data Ingestion completed
+[ 2023-05-01 19:11:39,743 ] 72 root - INFO - Read Train and Test data
+[ 2023-05-01 19:11:39,750 ] 73 root - INFO - Train Head : 
+    Unnamed: 0      id  carat      cut color clarity  depth  table     x     y     z  price
+0       34231   34231   0.31    Ideal     E     SI1   61.6   53.8  4.36  4.39  2.69    571
+1      134489  134489   1.51     Good     G     VS2   63.7   59.0  7.26  7.22  4.62  13872
+2      111473  111473   0.32    Ideal     G     VS2   61.6   56.0  4.40  4.43  2.72    568
+3      166655  166655   2.09  Premium     E     SI1   61.2   59.0  8.20  8.18  5.02  18557
+4      160212  160212   0.31    Ideal     H     VS2   61.1   56.0  4.41  4.38  2.68    489
+[ 2023-05-01 19:11:39,754 ] 74 root - INFO - Test Head : 
+    Unnamed: 0      id  carat        cut color clarity  depth  table     x     y     z  price
+0      128746  128746   0.54    Premium     G     VS1   61.0   58.0  5.24  5.28  3.21   1723
+1      136965  136965   1.50  Very Good     I     VS2   63.5   58.0  7.11  7.18  4.55   8807
+2       61139   61139   0.23  Very Good     D     VS1   59.5   61.0  4.00  4.05  2.39    499
+3      166368  166368   1.00       Good     F     SI2   64.0   61.0  6.24  6.29  4.01   3679
+4      138172  138172   1.50    Premium     H     VS2   62.8   59.0  7.27  7.23  4.55  10650
+[ 2023-05-01 19:11:39,754 ] 76 root - INFO - Obtaining Preprocessing object
+[ 2023-05-01 19:11:39,754 ] 25 root - INFO - Data Transformation Initiated
+[ 2023-05-01 19:11:39,754 ] 28 root - INFO - Defining categorical and numerical columns
+[ 2023-05-01 19:11:39,754 ] 33 root - INFO - Defining ordinal variables used for ranking
+[ 2023-05-01 19:11:39,754 ] 60 root - INFO - Pipeline created
+[ 2023-05-01 19:11:39,762 ] 90 root - INFO - Applying preprocessing object on training and testing datasets
+[ 2023-05-01 19:11:40,082 ] 103 root - INFO - Preprocessor pickle file saved
