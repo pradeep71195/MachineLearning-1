@@ -46,9 +46,3 @@ class DataIngestion:
             raise CustomException(e, sys)
 
 
-#Run Data Ingestion - Unit Test
-if __name__ == '__main__':
-    obj = DataIngestion()
-    train_data, test_data = obj.initiate_data_ingestion()
-    dt_obj = DataTransformation()
-    train_arr, test_arr,preprocessor_path = dt_obj.initiate_data_transformation(train_data, test_data)
