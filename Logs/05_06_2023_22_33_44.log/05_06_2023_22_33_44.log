@@ -1,0 +1,11 @@
+[ 2023-05-06 22:33:44,840 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-06 22:33:44,841 ] 186 werkzeug - INFO -  * Debugger PIN: 126-951-092
+[ 2023-05-06 22:34:01,497 ] 186 werkzeug - INFO - 172.18.0.2 - - [06/May/2023 22:34:01] "GET /predict HTTP/1.1" 200 -
+[ 2023-05-06 22:34:12,511 ] 62 root - INFO - Dataframe generated
+[ 2023-05-06 22:34:12,553 ] 23 root - INFO - Exception occured at Prediction stage
+[ 2023-05-06 22:34:12,558 ] 186 werkzeug - INFO - 172.18.0.2 - - [06/May/2023 22:34:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-05-06 22:34:12,817 ] 186 werkzeug - INFO - 172.18.0.2 - - [06/May/2023 22:34:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-06 22:34:12,825 ] 186 werkzeug - INFO - 172.18.0.2 - - [06/May/2023 22:34:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-06 22:34:13,082 ] 186 werkzeug - INFO - 172.18.0.2 - - [06/May/2023 22:34:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-06 22:34:13,163 ] 186 werkzeug - INFO - 172.18.0.2 - - [06/May/2023 22:34:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-06 22:40:15,870 ] 186 werkzeug - INFO -  * Detected change in '/config/workspace/src/pipeline/prediction_pipeline.py', reloading

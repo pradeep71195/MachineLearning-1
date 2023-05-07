@@ -1,0 +1,12 @@
+[ 2023-05-07 16:45:00,460 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-07 16:45:00,461 ] 186 werkzeug - INFO -  * Debugger PIN: 144-353-150
+[ 2023-05-07 16:45:19,002 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:19] "GET / HTTP/1.1" 200 -
+[ 2023-05-07 16:45:25,514 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:25] "GET /predict HTTP/1.1" 200 -
+[ 2023-05-07 16:45:35,610 ] 61 root - INFO - Dataframe generated
+[ 2023-05-07 16:45:35,677 ] 22 root - INFO - Exception occured at Prediction stage
+[ 2023-05-07 16:45:35,685 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-05-07 16:45:35,845 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-07 16:45:35,846 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-07 16:45:36,108 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:36] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-07 16:45:36,171 ] 186 werkzeug - INFO - 172.18.0.2 - - [07/May/2023 16:45:36] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-07 16:47:24,085 ] 186 werkzeug - INFO -  * Detected change in '/config/workspace/src/utils.py', reloading
